@@ -20,14 +20,6 @@
 </head>
 
 <body>
-    <div class="popup-overlay active" id="popup">
-        <div class="popup-content">
-            <h1>Benvenuto nel mio curriculum</h1>
-            <p>Premere Ctrl + P per stampare!</p>
-            <button class="close-popup" onclick="closePopup()">Chiudi</button>
-        </div>
-    </div>
-
     <div class="container-curriculum">
         <div class="container-body">
             <!-- CONTENITORE DI SINISTRA -->
@@ -272,15 +264,7 @@
 </body>
 
 <script>
-    // Funzione per chiudere il popup
-    function closePopup() {
-        document.getElementById('popup').classList.remove('active');
-    }
 
-    // Mostra il popup automaticamente al caricamento della pagina
-    window.onload = function () {
-        document.getElementById('popup').classList.add('active');
-    };
 </script>
 
 </html>
