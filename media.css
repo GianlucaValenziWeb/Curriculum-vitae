@@ -2,7 +2,7 @@
 
 /* ---------------------------------- POP-UP ----------------------------- */
 /* Stile per oscurare lo sfondo quando il popup è attivo */
- .popup-overlay {
+.popup-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -33,10 +33,11 @@
     background-color: var(--color2);
     border: none;
     color: var(--color1);
-    padding: 6px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-size: 1rem;
 }
 
 
@@ -51,7 +52,6 @@
 @media screen and (max-width: 1450px) {
 
     .container-left {
-        
         font-size: 14px;
     }
 
@@ -60,7 +60,7 @@
         height: 100px;
     }
 
-    h1 {
+    h2 {
         font-size: 20px;
     }
 
@@ -151,7 +151,7 @@
     .info i {
         padding-right: 20px;
     }
-    
+
 
     .container-info h3,
     .container-lingue h3,
